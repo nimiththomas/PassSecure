@@ -21,4 +21,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "PassSecure"
 include(":app")
- 
+include(":core:data")
+include(":core:database")
+include(":core:ui")
+include(":core:common")
+include(":core:domain")
+include(":feature:login")
+include(":feature:passwordstore")
+include(":feature:passwordgenerator")
